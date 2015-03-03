@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src = "VectorProtocol.js"></script>
+</head>
+<body>
+    <canvas id = "canvas" width = "600" height = "600" >
+        Nee
+    </canvas>
+    <script>
+        var vectorProtocol = new VectorProtocol("ws://127.0.0.1:9073", "abc", document.getElementById("canvas"));
+        vectorProtocol.initConnection();
+    </script>
+</body>
+</html>
